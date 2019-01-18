@@ -1,0 +1,29 @@
+.campaigns-photos__custom-checkbox {
+  background: #fff;
+  font-family:'IcoMoon', sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+  position: relative;
+  height: 1rem;
+  width: 1rem;
+  cursor: pointer;
+  appearance: none;
+}
+
+.campaigns-photos__custom-checkbox:checked,
+.campaigns-photos__custom-checkbox:indeterminate {
+  background-color: #ea7835;
+  border-color: #d26b2f;
+}
+
+.campaigns-photos__custom-checkbox:checked::before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: '\e93b';
+  color: #fff;
+  font-size: 0.6875rem;
+  font-weight: bold;
+}

@@ -1,0 +1,10 @@
+.campaigns-photos__filterCheckLine-text {
+  color: #354052;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+}
+
+.campaigns-photos__filterCheckLine-text__active {
+  font-weight: 600;
+}
