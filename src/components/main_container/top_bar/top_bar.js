@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import CustomTopBarCheckbox from '../common/custom_top_bar_checkbox/custom_top_bar_checkbox';
-import CustomTopBarSwipeCheckbox from '../common/custom_top_bar_swipe_checkbox/custom_top_bar_swipe_checkbox';
-import ViewSwitcher from '../common/view_switcher/view_switcher';
+import React from 'react';
+import CustomTopBarCheckbox from './custom_top_bar_checkbox/custom_top_bar_checkbox';
+import CustomTopBarSwipeCheckbox from './custom_top_bar_swipe_checkbox/custom_top_bar_swipe_checkbox';
+import ViewSwitcher from './view_switcher/view_switcher';
+import PropTypes from 'prop-types';
 
-export default class TopBar extends Component {
-  render() {
-    const { isSelectedAll, isFilterShown, itemsView, switchHandler, stateHandler } = this.props;
+const TopBar = (props) => {
+  const { isSelectedAll, isFilterShown, itemsView, switchHandler, stateHandler } = props;
+  return (
+    <div className="d-flex justify-content-between px-4 pb-3">
+      <CustomTopBarCheckbox
+        isChecked={isSelectedAll}
+        switchHandler={switchHandler}
+      />
 
-    return (
       <div className="d-flex justify-content-between">
-        <CustomTopBarCheckbox
-          isChecked={isSelectedAll}
-          switchHandler={switchHandler}
-        />
-
         <CustomTopBarSwipeCheckbox
           isChecked={isFilterShown}
           switchHandler={switchHandler}
@@ -24,6 +24,16 @@ export default class TopBar extends Component {
           stateHandler={stateHandler}
         />
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+TopBar.propTypes = {
+  isSelectedAll: PropTypes.bool.isRequired,
+  isFilterShown: PropTypes.bool.isRequired,
+  itemsView: PropTypes.string.isRequired,
+  switchHandler: PropTypes.func.isRequired,
+  stateHandler: PropTypes.func.isRequired,
+};
+
+export default TopBar;

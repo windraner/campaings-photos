@@ -1,0 +1,26 @@
+.campaigns-photos__viewSwitcher-grid {
+  border-left: 1px solid #dfe3e9;
+  height: 2rem;
+  width: 2.625rem;
+  font-size: 1.2rem;
+  font-family:'IcoMoon', sans-serif;
+  cursor: pointer;
+}
+
+.campaigns-photos__viewSwitcher-grid::before {
+  content: '\e909';
+}
+
+.campaigns-photos__viewSwitcher-list {
+  border-left: 1px solid #dfe3e9;
+  height: 2rem;
+  width: 2.625rem;
+  font-size: 1rem;
+  font-family:'IcoMoon', sans-serif;
+  padding: 0.5rem 0.675rem;
+  cursor: pointer;
+}
+
+.campaigns-photos__viewSwitcher-line {
+  height: 2px;
+}

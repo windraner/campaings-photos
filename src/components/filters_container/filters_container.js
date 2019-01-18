@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CustomInput from './custom_input/custom_input';
 import FilterCheckLine from './filter_check_line/filter_check_line';
+import PropTypes from 'prop-types';
 
 import './filters_container.css';
 
@@ -52,3 +53,10 @@ export default class FiltersContainer extends Component {
     );
   }
 }
+
+FiltersContainer.propTypes = {
+  markersList: PropTypes.array.isRequired,
+  searchInput: PropTypes.string.isRequired,
+  isFilterShown: PropTypes.bool.isRequired,
+  stateHandler: PropTypes.func.isRequired,
+};

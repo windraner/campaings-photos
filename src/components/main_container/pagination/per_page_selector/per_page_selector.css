@@ -1,0 +1,45 @@
+.campaigns-photos__select-text {
+  color: #7f8fa4;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.3125rem;
+}
+
+.campaigns-photos__select {
+  width: 5rem;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #354052;
+  outline: none;
+  appearance: none;
+  padding: 0.4rem 1rem;
+}
+
+.campaigns-photos__select:hover {
+  border-color: #bfc4cb;
+}
+
+.campaigns-photos__select:focus {
+  border-color: #a9b0b8;
+}
+
+.campaigns-photos__select-option {
+  height: 40px;
+}
+
+.campaigns-photos__select-icon {
+  color: #b0b1bd;
+  font-size: 1rem;
+  position: absolute;
+  top: 0.65rem;
+  right: 1rem;
+  line-height: 1;
+}
+
+.campaigns-photos__select-icon::before {
+  content: '\e940';
+  font-family: 'IcoMoon', sans-serif;
+}

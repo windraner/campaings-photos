@@ -70,10 +70,13 @@ export default class CampaignsPhotos extends Component {
           count: 0
         },
       ],
+      [CONSTANT.PAGE]: 0,
+      [CONSTANT.PER_PAGE]: CONSTANT.PER_PAGE_LIST[0],
     };
   }
 
   stateHandler = (field, value) => {
+    window.console.log(field, value);
     this.setState({ [field]: value });
   }
 

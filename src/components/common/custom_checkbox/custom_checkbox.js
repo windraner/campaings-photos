@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import { MARKERS_LIST } from '../../../constans';
 import { updateMarkerList } from '../../../utils';
@@ -26,3 +27,9 @@ export default class CustomCheckbox extends Component {
     );
   }
 }
+
+CustomCheckbox.propTypes = {
+  markersList: PropTypes.array.isRequired,
+  id: PropTypes.string.isRequired,
+  stateHandler: PropTypes.func.isRequired,
+};
