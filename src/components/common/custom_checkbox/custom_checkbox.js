@@ -29,6 +29,7 @@ export default class CustomCheckbox extends Component {
 }
 
 CustomCheckbox.propTypes = {
+  isChecked: PropTypes.bool.isRequired,
   markersList: PropTypes.array.isRequired,
   id: PropTypes.string.isRequired,
   stateHandler: PropTypes.func.isRequired,

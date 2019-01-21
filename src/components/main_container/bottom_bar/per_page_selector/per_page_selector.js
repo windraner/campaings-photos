@@ -24,9 +24,9 @@ export default class PerPageSelector extends Component {
   perPageClickHandler = (value) => {
     const { stateHandler } = this.props;
 
-    stateHandler(PER_PAGE, value);
+    stateHandler(PER_PAGE, +value);
 
-    customHistoryPush('paginate_by', value);
+    customHistoryPush('paginate_by', +value);
   }
 
   render() {

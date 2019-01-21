@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination matches the snapshot 1`] = `
+<div
+  className="d-flex"
+>
+  <div
+    className="campaigns-photos__pagination-button campaigns-photos__pagination-button-prev position-relative campaigns-photos__pagination-button__disabled"
+    onClick={null}
+  >
+    <span
+      className="campaigns-photos__pagination-left-icon"
+    />
+    Prev
+  </div>
+  <div
+    className="campaigns-photos__pagination-page campaigns-photos__pagination-page__active"
+    key="0"
+    onClick={null}
+  >
+    1
+  </div>
+  <div
+    className="campaigns-photos__pagination-page"
+    key="1"
+    onClick={[Function]}
+  >
+    2
+  </div>
+  <div
+    className="campaigns-photos__pagination-page"
+    key="2"
+    onClick={[Function]}
+  >
+    3
+  </div>
+  <div
+    className="campaigns-photos__pagination-page"
+    key="3"
+    onClick={[Function]}
+  >
+    4
+  </div>
+  <div
+    className="campaigns-photos__pagination-page"
+    key="4"
+    onClick={[Function]}
+  >
+    5
+  </div>
+  <div
+    className="campaigns-photos__pagination-separator"
+    key="5"
+  >
+    ...
+  </div>
+  <div
+    className="campaigns-photos__pagination-page"
+    key="6"
+    onClick={[Function]}
+  >
+    10
+  </div>
+  <div
+    className="campaigns-photos__pagination-button campaigns-photos__pagination-button-next position-relative"
+    onClick={[Function]}
+  >
+    Next
+    <span
+      className="campaigns-photos__pagination-right-icon"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomInput matches the snapshot 1`] = `
+<div
+  className="position-relative"
+>
+  <input
+    className="campaigns-photos__filter-input"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Search list"
+    type="text"
+    value=""
+  />
+  <span
+    className="campaigns-photos__filter-input-icon d-flex align-items-center"
+  />
+</div>
+`;

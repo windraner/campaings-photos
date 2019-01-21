@@ -4,7 +4,7 @@
   border: 1px solid #d0d6de;
   border-radius: 4px;
   width: 10.625rem;
-  padding: 0.5rem 0.75rem 0.5rem 3rem ;
+  padding: 0.5rem 0.75rem 0.5rem 3rem;
   outline: none;
 }
 
@@ -25,7 +25,7 @@
 .campaigns-photos__filter-input-icon {
   position: absolute;
   color: #a8aab7;
-  font-family:'IcoMoon', sans-serif;
+  font-family: 'IcoMoon', sans-serif;
   left: 1rem;
   top: 0;
   bottom: 0;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTopBarSwipeCheckbox matches the snapshot 1`] = `
+<label
+  className="d-flex align-items-center m-0"
+>
+  <input
+    checked={true}
+    className="campaigns-photos__custom-checkbox mr-2"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="campaigns-photos__customTopBarCheckbox-text campaigns-photos__customTopBarCheckbox-text__active"
+  >
+    Select all
+  </span>
+</label>
+`;

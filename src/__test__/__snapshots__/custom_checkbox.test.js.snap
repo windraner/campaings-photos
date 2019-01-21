@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomCheckbox matches the snapshot 1`] = `
+<input
+  checked={false}
+  className="campaigns-photos__custom-checkbox mr-2"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`CustomCheckbox matches the snapshot 2`] = `
+<input
+  checked={true}
+  className="campaigns-photos__custom-checkbox mr-2"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;

@@ -73,7 +73,7 @@ export default class CampaignsPhotos extends Component {
         },
       ],
       [CONSTANT.PAGE]: 1,
-      [CONSTANT.PAGE_COUNT]: 99,
+      [CONSTANT.PAGE_COUNT]: 10,
       [CONSTANT.PER_PAGE]: CONSTANT.PER_PAGE_LIST[0],
     };
   }

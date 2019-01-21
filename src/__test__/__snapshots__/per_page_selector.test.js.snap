@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PerPageSelector matches the snapshot 1`] = `
+<div
+  className="d-flex"
+>
+  <div
+    className="campaigns-photos__select-text d-flex align-items-center mr-2"
+  >
+    Results per page:
+  </div>
+  <div
+    className="position-relative"
+  >
+    <select
+      className="campaigns-photos__select"
+      onChange={[Function]}
+      value={25}
+    >
+      <option
+        className="campaigns-photos__select-option"
+        key="0"
+      >
+        25
+      </option>
+      <option
+        className="campaigns-photos__select-option"
+        key="1"
+      >
+        50
+      </option>
+      <option
+        className="campaigns-photos__select-option"
+        key="2"
+      >
+        200
+      </option>
+    </select>
+    <span
+      className="campaigns-photos__select-icon"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTopBarCheckbox matches the snapshot 1`] = `
+<div
+  className="d-flex align-items-center m-0 justify-content-between"
+>
+  <label
+    className="d-flex m-0"
+  >
+    <input
+      checked={true}
+      className="campaigns-photos__switch-input position-relative m-0"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="campaigns-photos__switch-text"
+    >
+      Show filters
+    </span>
+  </label>
+</div>
+`;

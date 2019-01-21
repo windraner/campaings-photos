@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBar matches the snapshot 1`] = `
+<div
+  className="d-flex justify-content-between px-4 pb-3"
+>
+  <CustomTopBarCheckbox
+    isChecked={false}
+    switchHandler={[Function]}
+  />
+  <div
+    className="d-flex justify-content-between"
+  >
+    <CustomTopBarSwipeCheckbox
+      isChecked={true}
+      switchHandler={[Function]}
+    />
+    <ViewSwitcher
+      itemsView="list"
+      stateHandler={[Function]}
+    />
+  </div>
+</div>
+`;

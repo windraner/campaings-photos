@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContainer matches the snapshot 1`] = `
+<div
+  className="campaigns-photos__main-container"
+>
+  <TopBar
+    isFilterShown={true}
+    isSelectedAll={false}
+    itemsView="list"
+    stateHandler={[Function]}
+    switchHandler={[Function]}
+  />
+  <BottomBar
+    page={1}
+    pagesCount={10}
+    perPage={25}
+    stateHandler={[Function]}
+  />
+</div>
+`;
+
+exports[`MainContainer matches the snapshot 2`] = `
+<div
+  className="campaigns-photos__main-container"
+>
+  <TopBar
+    isFilterShown={false}
+    isSelectedAll={false}
+    itemsView="list"
+    stateHandler={[Function]}
+    switchHandler={[Function]}
+  />
+  <BottomBar
+    page={1}
+    pagesCount={10}
+    perPage={25}
+    stateHandler={[Function]}
+  />
+</div>
+`;

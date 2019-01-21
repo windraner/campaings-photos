@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BottomBar matches the snapshot 1`] = `
+<div
+  className="campaigns-photo__bottom-bar-container d-flex justify-content-between"
+>
+  <PerPageSelector
+    stateHandler={[Function]}
+    value={25}
+  />
+  <Pagination
+    page={1}
+    pagesCount={10}
+    stateHandler={[Function]}
+  />
+</div>
+`;

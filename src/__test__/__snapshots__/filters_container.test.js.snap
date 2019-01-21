@@ -1,0 +1,608 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FiltersContainer matches the snapshot 1`] = `
+<div
+  className="campaigns-photos__filter-container"
+>
+  <CustomInput
+    searchInput=""
+    stateHandler={[Function]}
+  />
+  <div
+    className="campaigns-photos_mt-32"
+  >
+    <FilterCheckLine
+      item={
+        Object {
+          "count": 0,
+          "id": "all",
+          "isChecked": false,
+          "name": "Show all",
+          "type": "all",
+        }
+      }
+      key="all"
+      markersList={
+        Array [
+          Object {
+            "count": 0,
+            "id": "all",
+            "isChecked": false,
+            "name": "Show all",
+            "type": "all",
+          },
+          Object {
+            "count": 0,
+            "id": "pending",
+            "isChecked": false,
+            "name": "Pending",
+            "type": "main",
+          },
+          Object {
+            "count": 0,
+            "id": "approved",
+            "isChecked": false,
+            "name": "Approved",
+            "type": "main",
+          },
+          Object {
+            "count": 0,
+            "id": "rejected",
+            "isChecked": false,
+            "name": "Rejected",
+            "type": "main",
+          },
+          Object {
+            "count": 0,
+            "id": "rightsRequested",
+            "isChecked": false,
+            "name": "Rights requested",
+            "type": "main",
+          },
+          Object {
+            "count": 0,
+            "id": "sticly",
+            "isChecked": false,
+            "name": "Sticly",
+            "type": "main",
+          },
+          Object {
+            "count": 0,
+            "id": "topPhotos",
+            "isChecked": false,
+            "name": "Top photos",
+            "type": "secondary",
+          },
+          Object {
+            "count": 0,
+            "id": "unhealthy",
+            "isChecked": false,
+            "name": "Unhealthy products",
+            "type": "secondary",
+          },
+        ]
+      }
+      stateHandler={[Function]}
+    />
+    <div
+      className="campaigns-photos_mt-32"
+    >
+      <FilterCheckLine
+        item={
+          Object {
+            "count": 0,
+            "id": "pending",
+            "isChecked": false,
+            "name": "Pending",
+            "type": "main",
+          }
+        }
+        key="pending"
+        markersList={
+          Array [
+            Object {
+              "count": 0,
+              "id": "all",
+              "isChecked": false,
+              "name": "Show all",
+              "type": "all",
+            },
+            Object {
+              "count": 0,
+              "id": "pending",
+              "isChecked": false,
+              "name": "Pending",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "approved",
+              "isChecked": false,
+              "name": "Approved",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rejected",
+              "isChecked": false,
+              "name": "Rejected",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rightsRequested",
+              "isChecked": false,
+              "name": "Rights requested",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "sticly",
+              "isChecked": false,
+              "name": "Sticly",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "topPhotos",
+              "isChecked": false,
+              "name": "Top photos",
+              "type": "secondary",
+            },
+            Object {
+              "count": 0,
+              "id": "unhealthy",
+              "isChecked": false,
+              "name": "Unhealthy products",
+              "type": "secondary",
+            },
+          ]
+        }
+        stateHandler={[Function]}
+      />
+      <FilterCheckLine
+        item={
+          Object {
+            "count": 0,
+            "id": "approved",
+            "isChecked": false,
+            "name": "Approved",
+            "type": "main",
+          }
+        }
+        key="approved"
+        markersList={
+          Array [
+            Object {
+              "count": 0,
+              "id": "all",
+              "isChecked": false,
+              "name": "Show all",
+              "type": "all",
+            },
+            Object {
+              "count": 0,
+              "id": "pending",
+              "isChecked": false,
+              "name": "Pending",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "approved",
+              "isChecked": false,
+              "name": "Approved",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rejected",
+              "isChecked": false,
+              "name": "Rejected",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rightsRequested",
+              "isChecked": false,
+              "name": "Rights requested",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "sticly",
+              "isChecked": false,
+              "name": "Sticly",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "topPhotos",
+              "isChecked": false,
+              "name": "Top photos",
+              "type": "secondary",
+            },
+            Object {
+              "count": 0,
+              "id": "unhealthy",
+              "isChecked": false,
+              "name": "Unhealthy products",
+              "type": "secondary",
+            },
+          ]
+        }
+        stateHandler={[Function]}
+      />
+      <FilterCheckLine
+        item={
+          Object {
+            "count": 0,
+            "id": "rejected",
+            "isChecked": false,
+            "name": "Rejected",
+            "type": "main",
+          }
+        }
+        key="rejected"
+        markersList={
+          Array [
+            Object {
+              "count": 0,
+              "id": "all",
+              "isChecked": false,
+              "name": "Show all",
+              "type": "all",
+            },
+            Object {
+              "count": 0,
+              "id": "pending",
+              "isChecked": false,
+              "name": "Pending",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "approved",
+              "isChecked": false,
+              "name": "Approved",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rejected",
+              "isChecked": false,
+              "name": "Rejected",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rightsRequested",
+              "isChecked": false,
+              "name": "Rights requested",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "sticly",
+              "isChecked": false,
+              "name": "Sticly",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "topPhotos",
+              "isChecked": false,
+              "name": "Top photos",
+              "type": "secondary",
+            },
+            Object {
+              "count": 0,
+              "id": "unhealthy",
+              "isChecked": false,
+              "name": "Unhealthy products",
+              "type": "secondary",
+            },
+          ]
+        }
+        stateHandler={[Function]}
+      />
+      <FilterCheckLine
+        item={
+          Object {
+            "count": 0,
+            "id": "rightsRequested",
+            "isChecked": false,
+            "name": "Rights requested",
+            "type": "main",
+          }
+        }
+        key="rightsRequested"
+        markersList={
+          Array [
+            Object {
+              "count": 0,
+              "id": "all",
+              "isChecked": false,
+              "name": "Show all",
+              "type": "all",
+            },
+            Object {
+              "count": 0,
+              "id": "pending",
+              "isChecked": false,
+              "name": "Pending",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "approved",
+              "isChecked": false,
+              "name": "Approved",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rejected",
+              "isChecked": false,
+              "name": "Rejected",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rightsRequested",
+              "isChecked": false,
+              "name": "Rights requested",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "sticly",
+              "isChecked": false,
+              "name": "Sticly",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "topPhotos",
+              "isChecked": false,
+              "name": "Top photos",
+              "type": "secondary",
+            },
+            Object {
+              "count": 0,
+              "id": "unhealthy",
+              "isChecked": false,
+              "name": "Unhealthy products",
+              "type": "secondary",
+            },
+          ]
+        }
+        stateHandler={[Function]}
+      />
+      <FilterCheckLine
+        item={
+          Object {
+            "count": 0,
+            "id": "sticly",
+            "isChecked": false,
+            "name": "Sticly",
+            "type": "main",
+          }
+        }
+        key="sticly"
+        markersList={
+          Array [
+            Object {
+              "count": 0,
+              "id": "all",
+              "isChecked": false,
+              "name": "Show all",
+              "type": "all",
+            },
+            Object {
+              "count": 0,
+              "id": "pending",
+              "isChecked": false,
+              "name": "Pending",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "approved",
+              "isChecked": false,
+              "name": "Approved",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rejected",
+              "isChecked": false,
+              "name": "Rejected",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rightsRequested",
+              "isChecked": false,
+              "name": "Rights requested",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "sticly",
+              "isChecked": false,
+              "name": "Sticly",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "topPhotos",
+              "isChecked": false,
+              "name": "Top photos",
+              "type": "secondary",
+            },
+            Object {
+              "count": 0,
+              "id": "unhealthy",
+              "isChecked": false,
+              "name": "Unhealthy products",
+              "type": "secondary",
+            },
+          ]
+        }
+        stateHandler={[Function]}
+      />
+    </div>
+    <div
+      className="campaigns-photos_mt-32"
+    >
+      <FilterCheckLine
+        item={
+          Object {
+            "count": 0,
+            "id": "topPhotos",
+            "isChecked": false,
+            "name": "Top photos",
+            "type": "secondary",
+          }
+        }
+        key="topPhotos"
+        markersList={
+          Array [
+            Object {
+              "count": 0,
+              "id": "all",
+              "isChecked": false,
+              "name": "Show all",
+              "type": "all",
+            },
+            Object {
+              "count": 0,
+              "id": "pending",
+              "isChecked": false,
+              "name": "Pending",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "approved",
+              "isChecked": false,
+              "name": "Approved",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rejected",
+              "isChecked": false,
+              "name": "Rejected",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rightsRequested",
+              "isChecked": false,
+              "name": "Rights requested",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "sticly",
+              "isChecked": false,
+              "name": "Sticly",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "topPhotos",
+              "isChecked": false,
+              "name": "Top photos",
+              "type": "secondary",
+            },
+            Object {
+              "count": 0,
+              "id": "unhealthy",
+              "isChecked": false,
+              "name": "Unhealthy products",
+              "type": "secondary",
+            },
+          ]
+        }
+        stateHandler={[Function]}
+      />
+      <FilterCheckLine
+        item={
+          Object {
+            "count": 0,
+            "id": "unhealthy",
+            "isChecked": false,
+            "name": "Unhealthy products",
+            "type": "secondary",
+          }
+        }
+        key="unhealthy"
+        markersList={
+          Array [
+            Object {
+              "count": 0,
+              "id": "all",
+              "isChecked": false,
+              "name": "Show all",
+              "type": "all",
+            },
+            Object {
+              "count": 0,
+              "id": "pending",
+              "isChecked": false,
+              "name": "Pending",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "approved",
+              "isChecked": false,
+              "name": "Approved",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rejected",
+              "isChecked": false,
+              "name": "Rejected",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "rightsRequested",
+              "isChecked": false,
+              "name": "Rights requested",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "sticly",
+              "isChecked": false,
+              "name": "Sticly",
+              "type": "main",
+            },
+            Object {
+              "count": 0,
+              "id": "topPhotos",
+              "isChecked": false,
+              "name": "Top photos",
+              "type": "secondary",
+            },
+            Object {
+              "count": 0,
+              "id": "unhealthy",
+              "isChecked": false,
+              "name": "Unhealthy products",
+              "type": "secondary",
+            },
+          ]
+        }
+        stateHandler={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

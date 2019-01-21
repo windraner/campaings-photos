@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewSwitcher matches the snapshot 1`] = `
+<Fragment>
+  <div
+    className="campaigns-photos__viewSwitcher-grid d-flex align-items-center justify-content-center ml-3"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#b7c0cd",
+      }
+    }
+  />
+  <div
+    className="campaigns-photos__viewSwitcher-list d-flex flex-column justify-content-between"
+    onClick={[Function]}
+  >
+    <span
+      className="campaigns-photos__viewSwitcher-line"
+      style={
+        Object {
+          "background": "#f67646",
+        }
+      }
+    />
+    <span
+      className="campaigns-photos__viewSwitcher-line"
+      style={
+        Object {
+          "background": "#f67646",
+        }
+      }
+    />
+    <span
+      className="campaigns-photos__viewSwitcher-line"
+      style={
+        Object {
+          "background": "#f67646",
+        }
+      }
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`ViewSwitcher matches the snapshot 2`] = `
+<Fragment>
+  <div
+    className="campaigns-photos__viewSwitcher-grid d-flex align-items-center justify-content-center ml-3"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#f67646",
+      }
+    }
+  />
+  <div
+    className="campaigns-photos__viewSwitcher-list d-flex flex-column justify-content-between"
+    onClick={[Function]}
+  >
+    <span
+      className="campaigns-photos__viewSwitcher-line"
+      style={
+        Object {
+          "background": "#b7c0cd",
+        }
+      }
+    />
+    <span
+      className="campaigns-photos__viewSwitcher-line"
+      style={
+        Object {
+          "background": "#b7c0cd",
+        }
+      }
+    />
+    <span
+      className="campaigns-photos__viewSwitcher-line"
+      style={
+        Object {
+          "background": "#b7c0cd",
+        }
+      }
+    />
+  </div>
+</Fragment>
+`;
