@@ -1,4 +1,6 @@
 
+import queryString from 'query-string';
+
 export const updateMarkerList = ({markersList, id}) => {
   let newMarkersList;
 
@@ -47,4 +49,11 @@ export const updateMarkerList = ({markersList, id}) => {
   }
 
   return newMarkersList;
+};
+
+export const customHistoryPush = (param, value) => {
+  const parsed = queryString.parse(location.search);
+  parsed[param] = value;
+  const stringified = '?' + queryString.stringify(parsed);
+  window.history.pushState(null, null, stringified);
 };

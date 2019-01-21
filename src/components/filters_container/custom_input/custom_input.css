@@ -14,6 +14,14 @@
   font-weight: 600;
 }
 
+.campaigns-photos__filter-input:hover {
+  border-color: #bfc4cb;
+}
+
+.campaigns-photos__filter-input:focus {
+  border-color: #a9b0b8;
+}
+
 .campaigns-photos__filter-input-icon {
   position: absolute;
   color: #a8aab7;

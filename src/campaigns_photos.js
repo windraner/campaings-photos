@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FiltersContainer from './components/filters_container/filters_container';
 import MainContainer from './components/main_container/main_container';
+import queryString from 'query-string';
 
 import * as CONSTANT from './constans';
 
@@ -8,6 +9,7 @@ export default class CampaignsPhotos extends Component {
   constructor() {
     super();
     this.state = {
+      [CONSTANT.LOADING]: true,
       [CONSTANT.SEARCH_INPUT]: '',
       [CONSTANT.IS_SELECTED_ALL]: false,
       [CONSTANT.IS_FILTER_SHOWN]: true,
@@ -70,9 +72,23 @@ export default class CampaignsPhotos extends Component {
           count: 0
         },
       ],
-      [CONSTANT.PAGE]: 0,
+      [CONSTANT.PAGE]: 1,
+      [CONSTANT.PAGE_COUNT]: 99,
       [CONSTANT.PER_PAGE]: CONSTANT.PER_PAGE_LIST[0],
     };
+  }
+
+  componentDidMount() {
+    const parsed = queryString.parse(location.search);
+    if(parsed.page) {
+      this.setState({ [CONSTANT.PAGE]: +parsed.page });
+    }
+
+    this.fetchData();
+  }
+
+  fetchData = () => {
+    setTimeout(() => this.setState({ [CONSTANT.LOADING]: false }), 1000);
   }
 
   stateHandler = (field, value) => {
