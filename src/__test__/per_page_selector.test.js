@@ -12,6 +12,19 @@ const mock = {
 };
 
 describe('PerPageSelector', () => {
+  it('Check for value is setted', () => {
+    const wrapper = shallow(<PerPageSelector {...mock} />);
+    const button = wrapper.find('.campaigns-photos__select');
+    expect(button.props().value).toBe(25);
+  });
+  it('Check for callback is called', () => {
+    const onClickFunc = jest.fn();
+    const wrapper = shallow(<PerPageSelector {...mock} stateHandler={onClickFunc} />);
+    const button = wrapper.find('.campaigns-photos__select');
+    button.simulate('change', { target: { value: 50 }});
+    expect(onClickFunc).toBeCalled();
+    expect(onClickFunc.mock.calls).toEqual([['perPage', 50]]);
+  });
   it('matches the snapshot', () => {
     const tree = shallow(<PerPageSelector {...mock} />);
     expect(toJson(tree)).toMatchSnapshot();

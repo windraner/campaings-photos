@@ -16,6 +16,12 @@ const mock = {
 };
 
 describe('CustomCheckbox', () => {
+  it('Check for value is setted', () => {
+    const wrapper = shallow(<CustomCheckbox {...mock} />);
+    expect(wrapper.find('.campaigns-photos__custom-checkbox').props().checked).toBe(false);
+    wrapper.setProps({ isChecked: true });
+    expect( wrapper.find('.campaigns-photos__custom-checkbox').props().checked).toBe(true);
+  });
   it('Check for callback is called', () => {
     const onClickFunc = jest.fn();
     const wrapper = shallow(<CustomCheckbox {...mock} stateHandler={onClickFunc} />);

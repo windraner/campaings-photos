@@ -12,6 +12,22 @@ const mock = {
 };
 
 describe('ViewSwitcher', () => {
+  it('Check for callback is called (grid)', () => {
+    const onClickFunc = jest.fn();
+    const wrapper = shallow(<ViewSwitcher {...mock} stateHandler={onClickFunc} />);
+    const button = wrapper.find('.campaigns-photos__viewSwitcher-grid');
+    button.simulate('click');
+    expect(onClickFunc).toBeCalled();
+    expect(onClickFunc.mock.calls).toEqual([['itemsView', 'grid']]);
+  });
+  it('Check for callback is called (grid)', () => {
+    const onClickFunc = jest.fn();
+    const wrapper = shallow(<ViewSwitcher {...mock} stateHandler={onClickFunc} />);
+    const button = wrapper.find('.campaigns-photos__viewSwitcher-list');
+    button.simulate('click');
+    expect(onClickFunc).toBeCalled();
+    expect(onClickFunc.mock.calls).toEqual([['itemsView', 'list']]);
+  });
   it('matches the snapshot', () => {
     const tree = shallow(<ViewSwitcher {...mock} />);
     expect(toJson(tree)).toMatchSnapshot();

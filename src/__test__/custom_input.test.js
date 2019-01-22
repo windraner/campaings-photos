@@ -12,6 +12,19 @@ const mock = {
 };
 
 describe('CustomInput', () => {
+  it('Check for value is setted', () => {
+    const wrapper = shallow(<CustomInput {...mock} searchInput={'foo'} />);
+    const button = wrapper.find('.campaigns-photos__filter-input');
+    expect(button.props().value).toBe('foo');
+  });
+  it('Check for callback is called', () => {
+    const onClickFunc = jest.fn();
+    const wrapper = shallow(<CustomInput {...mock} stateHandler={onClickFunc} />);
+    const button = wrapper.find('.campaigns-photos__filter-input');
+    button.simulate('change', { target: { value: 'foo' }});
+    expect(onClickFunc).toBeCalled();
+    expect(onClickFunc.mock.calls).toEqual([['searchInput', 'foo']]);
+  });
   it('matches the snapshot', () => {
     const tree = shallow(<CustomInput {...mock} />);
     expect(toJson(tree)).toMatchSnapshot();
